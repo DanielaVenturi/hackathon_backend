@@ -10,3 +10,7 @@ class Ocorrencia(models.Model):
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
     categoria_ocorrencia = models.CharField(max_length=100)
     data_criacao = models.DateField()
+
+class Meta:
+        verbose_name = "Ocorrência"
+        verbose_name_plural = "Ocorrências"

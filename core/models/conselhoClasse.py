@@ -21,3 +21,6 @@ class ConselhoClasse(models.Model):
 
     def __str__(self):
         return f"Conselho {self.conselho_id} - {self.status}"
+    
+    class Meta:
+        verbose_name_plural = "Conselhos de Classe"

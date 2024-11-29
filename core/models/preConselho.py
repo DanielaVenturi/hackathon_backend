@@ -6,3 +6,7 @@ class PreConselho(models.Model):
     preConselho_id = models.AutoField(primary_key=True)
     turma = models.ForeignKey(Turma, on_delete=models.SET_NULL, null=True, blank=True, default=None,)
     trimestre = models.ForeignKey(Trimestre, on_delete=models.SET_NULL, null=True, blank=True, default=None,)
+
+class Meta:
+    verbose_name = "Pré-Conselho"
+    verbose_name_plural = "Pré-Conselhos"

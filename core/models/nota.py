@@ -11,3 +11,6 @@ class Nota(models.Model):
     conselho = models.ForeignKey(ConselhoClasse, on_delete=models.CASCADE)
     trimestre = models.CharField(max_length=20, choices=[('1', 'Primeiro'), ('2', 'Segundo'), ('3', 'Terceiro')])
     valor = models.DecimalField(max_digits=5, decimal_places=2)
+
+    class Meta:
+        verbose_name_plural = "Notas"
