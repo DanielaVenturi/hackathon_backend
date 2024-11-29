@@ -6,3 +6,5 @@ from .trimestre import TrimestreViewSet
 from .preConselho import PreConselhoViewSet
 from .aluno import AlunoViewSet
 from .ocorrencia import OcorrenciaViewSet
+from .nota import NotaViewSet
+from .conselhoClasse import ConselhoClasseViewSet

@@ -6,3 +6,5 @@ from .trimestre import Trimestre
 from .preConselho import PreConselho
 from .aluno import Aluno
 from .ocorrencia import Ocorrencia
+from .nota import Nota
+from .conselhoClasse import ConselhoClasse

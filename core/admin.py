@@ -59,4 +59,5 @@ admin.site.register(models.Trimestre)
 admin.site.register(models.PreConselho)
 admin.site.register(models.Aluno)
 admin.site.register(models.Ocorrencia)
-
+admin.site.register(models.Nota)
+admin.site.register(models.ConselhoClasse)

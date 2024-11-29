@@ -6,3 +6,5 @@ from .trimestre import TrimestreSerializer
 from  .preConselho import PreConselhoSerializer
 from .aluno import AlunoSerializer
 from .ocorrencia import OcorrenciaSerializer
+from .nota import NotaSerializer
+from .conselhoClasse import ConselhoClasseSerializer
