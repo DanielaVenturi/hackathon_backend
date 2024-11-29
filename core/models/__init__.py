@@ -5,3 +5,4 @@ from .disciplina import Disciplina
 from .trimestre import Trimestre
 from .preConselho import PreConselho
 from .aluno import Aluno
+from .ocorrencia import Ocorrencia

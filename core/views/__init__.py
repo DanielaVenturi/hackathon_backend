@@ -5,3 +5,4 @@ from .disciplina import DisciplinaViewSet
 from .trimestre import TrimestreViewSet
 from .preConselho import PreConselhoViewSet
 from .aluno import AlunoViewSet
+from .ocorrencia import OcorrenciaViewSet
