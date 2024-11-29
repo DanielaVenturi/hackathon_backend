@@ -56,4 +56,5 @@ admin.site.register(models.Turma)
 admin.site.register(models.Professor)
 admin.site.register(models.Disciplina)
 admin.site.register(models.Trimestre)
+admin.site.register(models.PreConselho)
 
