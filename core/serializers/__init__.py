@@ -8,3 +8,4 @@ from .aluno import AlunoSerializer
 from .ocorrencia import OcorrenciaSerializer
 from .nota import NotaSerializer
 from .conselhoClasse import ConselhoClasseSerializer
+from .turmaHasDisciplina import TurmaHasDisciplinaSerializer 

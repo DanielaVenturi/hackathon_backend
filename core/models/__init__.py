@@ -8,3 +8,4 @@ from .aluno import Aluno
 from .ocorrencia import Ocorrencia
 from .nota import Nota
 from .conselhoClasse import ConselhoClasse
+from .turmaHasDisciplina import TurmaHasDisciplina
